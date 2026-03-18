@@ -38,3 +38,27 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+# Gerbers
+*.gbr
+*.gbrjob
+*.drl
+
+# Protel Gerber extensions
+*.gbl
+*.gbp
+*.gbs
+*.gbo
+*.rpt
+*.gm1
+*.gtl
+*.gts
+*.gtp
+*.gto
+*.g[0-9]
+
+# Kicad plugins
+panelizer.log
+ordering_instructions.txtf
+
+**/production

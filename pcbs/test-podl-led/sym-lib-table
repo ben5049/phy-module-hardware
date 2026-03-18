@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "DMP21D0UFB-7B")(type "KiCad")(uri "${KIPRJMOD}/../component-library/project_symbols/DMP21D0UFB-7B.kicad_sym")(options "")(descr ""))
+  (lib (name "DMN21D2UFB-7B")(type "KiCad")(uri "${KIPRJMOD}/../component-library/project_symbols/DMN21D2UFB-7B.kicad_sym")(options "")(descr ""))
+  (lib (name "TLV70xx")(type "KiCad")(uri "${KIPRJMOD}/../component-library/project_symbols/TLV70xx.kicad_sym")(options "")(descr ""))
+  (lib (name "BZX884")(type "KiCad")(uri "${KIPRJMOD}/../component-library/project_symbols/BZX884.kicad_sym")(options "")(descr ""))
+  (lib (name "DMN62D1LFD")(type "KiCad")(uri "${KIPRJMOD}/../component-library/project_symbols/DMN62D1LFD.kicad_sym")(options "")(descr ""))
+  (lib (name "PMEG4002EL-QYL")(type "KiCad")(uri "${KIPRJMOD}/../component-library/project_symbols/PMEG4002EL-QYL.kicad_sym")(options "")(descr ""))
+)
