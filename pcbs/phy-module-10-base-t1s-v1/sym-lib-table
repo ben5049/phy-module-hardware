@@ -16,4 +16,5 @@
   (lib (name "JST")(type "KiCad")(uri "${KIPRJMOD}/../component-library/project_symbols/JST.kicad_sym")(options "")(descr ""))
   (lib (name "MOSFET")(type "KiCad")(uri "${KIPRJMOD}/../component-library/project_symbols/MOSFET.kicad_sym")(options "")(descr ""))
   (lib (name "DEV")(type "KiCad")(uri "${KIPRJMOD}/../component-library/project_symbols/DEV.kicad_sym")(options "")(descr ""))
+  (lib (name "DIODE")(type "KiCad")(uri "${KIPRJMOD}/../component-library/project_symbols/DIODE.kicad_sym")(options "")(descr ""))
 )

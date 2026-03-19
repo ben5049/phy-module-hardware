@@ -282,7 +282,20 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|355600|1574800|c2f190c9-b132-49ba-916f-1c2614f5f3a2|00000000-0000-0000-0000-000000000000|/e80ee503-1693-4b2e-938d-c8fe929984fe|/e80ee503-1693-4b2e-938d-c8fe929984fe|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|889000|1092200|c73bbf3c-5526-4702-945b-def7e6e9974e|00000000-0000-0000-0000-000000000000|/e80ee503-1693-4b2e-938d-c8fe929984fe/fb2bc837-7a5e-4395-9389-7c0840c8a16a|/e80ee503-1693-4b2e-938d-c8fe929984fe/fb2bc837-7a5e-4395-9389-7c0840c8a16a|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|889000|1625600|6ca56fd1-4fc4-4933-b4d3-3e3c19e8d7d0|00000000-0000-0000-0000-000000000000|/e80ee503-1693-4b2e-938d-c8fe929984fe/fb2bc837-7a5e-4395-9389-7c0840c8a16a|/e80ee503-1693-4b2e-938d-c8fe929984fe/fb2bc837-7a5e-4395-9389-7c0840c8a16a|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -507,7 +520,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "phy_module_10_base_t1s_v1.kicad_pro",
+    "filename": "phy-module-10-base-t1s-v1.kicad_pro",
     "version": 3
   },
   "net_settings": {

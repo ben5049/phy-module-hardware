@@ -537,7 +537,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "JST-GH:JST-GH-2-Vertical"
+		(symbol "JST:JST-GH-2-Vertical"
 			(pin_names
 				(hide yes)
 			)
@@ -2706,7 +2706,7 @@
 		)
 	)
 	(symbol
-		(lib_id "JST-GH:JST-GH-2-Vertical")
+		(lib_id "JST:JST-GH-2-Vertical")
 		(at 50.8 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3509,7 +3509,7 @@
 		)
 	)
 	(symbol
-		(lib_id "JST-GH:JST-GH-2-Vertical")
+		(lib_id "JST:JST-GH-2-Vertical")
 		(at 50.8 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
