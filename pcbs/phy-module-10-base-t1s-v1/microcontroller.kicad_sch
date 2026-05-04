@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "3c9524fa-61f6-4f70-b9e4-8a6842999c2a")
 	(paper "A4")
 	(lib_symbols
@@ -16,8 +16,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TP"
 				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -26,6 +30,8 @@
 			)
 			(property "Value" "TestPoint_Small"
 				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -34,47 +40,57 @@
 			)
 			(property "Footprint" ""
 				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "test point"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "test point tp"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Pin* Test*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "TestPoint_Small_0_1"
@@ -123,8 +139,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -134,6 +154,8 @@
 			)
 			(property "Value" "SMALL"
 				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -143,47 +165,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "capacitor cap"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "C_SMALL_0_1"
@@ -216,7 +248,7 @@
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -234,7 +266,7 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 2.032)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -263,8 +295,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
 				(at -1.27 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -274,6 +310,8 @@
 			)
 			(property "Value" "LED_SMALL"
 				(at -4.445 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -283,56 +321,68 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Light emitting diode, small symbol"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "LED diode light-emitting-diode"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "LED_SMALL_0_1"
@@ -448,8 +498,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -458,6 +512,8 @@
 			)
 			(property "Value" "R_SMALL"
 				(at 1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -466,47 +522,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Resistor, small symbol"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "R resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "R_SMALL_0_1"
@@ -526,7 +592,7 @@
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.762)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -544,7 +610,7 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 0.762)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -569,8 +635,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
 				(at 11.43 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -580,6 +650,8 @@
 			)
 			(property "Value" "DMN21D2UFB-7B"
 				(at 11.43 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -589,81 +661,97 @@
 			)
 			(property "Footprint" "project_footprints:DMN21D2UFB7B"
 				(at 11.43 -98.73 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/DMN21D2UFB-7B.pdf"
 				(at 11.43 -198.73 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Description" "MOSFET MOSFET BVDSS: 8V-24V X1-DFN1006-3 T&R 10"
 				(at 0 -30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Height" "0.53"
 				(at 11.43 -398.73 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Mouser Part Number" "621-DMN21D2UFB-7B"
 				(at 11.43 -498.73 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Mouser Price/Stock" ""
 				(at 11.43 -598.73 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer_Name" "Diodes Incorporated"
 				(at 11.43 -698.73 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer_Part_Number" "DMN21D2UFB-7B"
 				(at 11.43 -798.73 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(symbol "DMN21D2UFB-7B_0_1"
@@ -853,24 +941,6 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 7.62 -5.08 90)
 					(length 2.54)
 					(name "S"
@@ -888,11 +958,29 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 7.62 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
 		(symbol "PWR-SYM:+3V3_AON"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -903,17 +991,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "+3V3_AON"
 				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -922,38 +1016,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"+3V3_AON\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "+3V3_AON_0_1"
@@ -998,7 +1100,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1017,7 +1119,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "PWR-SYM:+VIN"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1028,17 +1130,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "+VIN"
 				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1047,38 +1155,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"+VIN\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "+VIN_0_1"
@@ -1123,7 +1239,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1145,8 +1261,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1155,6 +1275,8 @@
 			)
 			(property "Value" "STM32L021F4Ux"
 				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1163,48 +1285,58 @@
 			)
 			(property "Footprint" "project_footprints:ST_UFQFPN-20_3x3mm_P0.5mm"
 				(at 25.7175 -35.56 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify right)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32l021f4.pdf"
 				(at 0 -35.56 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 16KB flash, 2KB RAM, 32 MHz, 1.65-3.6V, 16 GPIO, UFQFPN20"
 				(at 0 -35.56 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "Arm Cortex-M0+ STM32L0 STM32L0x1"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "ST*UFQFPN*3x3mm*P0.5mm*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "STM32L021F4Ux_1_1"
@@ -1217,60 +1349,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(pin power_in line
-					(at -15.24 -2.54 0)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -15.24 -5.08 0)
-					(length 5.08)
-					(name "VDDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -10.16 0)
-					(length 5.08)
-					(name "NRST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 				(pin bidirectional line
@@ -1311,92 +1389,35 @@
 					)
 					(alternate "RCC_OSC32_OUT" bidirectional line)
 				)
-				(pin bidirectional line
-					(at -15.24 -22.86 0)
+				(pin input line
+					(at -15.24 -10.16 0)
 					(length 5.08)
-					(name "PB1"
+					(name "NRST"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "11"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(alternate "ADC_IN9" bidirectional line)
-					(alternate "LPTIM1_IN1" bidirectional line)
-					(alternate "LPUART1_DE" bidirectional line)
-					(alternate "LPUART1_RTS" bidirectional line)
-					(alternate "SPI1_MOSI" bidirectional line)
-					(alternate "SYS_VREF_OUT_PB1" bidirectional line)
-					(alternate "TIM2_CH4" bidirectional line)
-					(alternate "USART2_CK" bidirectional line)
 				)
-				(pin bidirectional line
-					(at -15.24 -25.4 0)
+				(pin power_in line
+					(at -15.24 -5.08 0)
 					(length 5.08)
-					(name "PB6"
+					(name "VDDA"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "COMP2_INP" bidirectional line)
-					(alternate "I2C1_SCL" bidirectional line)
-					(alternate "LPTIM1_ETR" bidirectional line)
-					(alternate "LPUART1_TX" bidirectional line)
-					(alternate "TIM2_CH3" bidirectional line)
-					(alternate "USART2_TX" bidirectional line)
-				)
-				(pin bidirectional line
-					(at -15.24 -27.94 0)
-					(length 5.08)
-					(name "PB7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "COMP2_INP" bidirectional line)
-					(alternate "I2C1_SDA" bidirectional line)
-					(alternate "LPTIM1_IN2" bidirectional line)
-					(alternate "LPUART1_RX" bidirectional line)
-					(alternate "SYS_PVD_IN" bidirectional line)
-					(alternate "TIM2_CH4" bidirectional line)
-					(alternate "USART2_RX" bidirectional line)
-				)
-				(pin bidirectional line
-					(at -15.24 -30.48 0)
-					(length 5.08)
-					(name "PB9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1564,6 +1585,68 @@
 					(alternate "USART2_CTS" bidirectional line)
 				)
 				(pin bidirectional line
+					(at -15.24 -22.86 0)
+					(length 5.08)
+					(name "PB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC_IN9" bidirectional line)
+					(alternate "LPTIM1_IN1" bidirectional line)
+					(alternate "LPUART1_DE" bidirectional line)
+					(alternate "LPUART1_RTS" bidirectional line)
+					(alternate "SPI1_MOSI" bidirectional line)
+					(alternate "SYS_VREF_OUT_PB1" bidirectional line)
+					(alternate "TIM2_CH4" bidirectional line)
+					(alternate "USART2_CK" bidirectional line)
+				)
+				(pin power_in line
+					(at 15.24 -30.48 180)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
 					(at 15.24 -17.78 180)
 					(length 5.08)
 					(name "PA9"
@@ -1660,17 +1743,66 @@
 					(alternate "SYS_SWCLK" bidirectional line)
 					(alternate "USART2_TX" bidirectional line)
 				)
-				(pin power_in line
-					(at 15.24 -30.48 180)
+				(pin bidirectional line
+					(at -15.24 -25.4 0)
 					(length 5.08)
-					(name "VSS"
+					(name "PB6"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "12"
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "COMP2_INP" bidirectional line)
+					(alternate "I2C1_SCL" bidirectional line)
+					(alternate "LPTIM1_ETR" bidirectional line)
+					(alternate "LPUART1_TX" bidirectional line)
+					(alternate "TIM2_CH3" bidirectional line)
+					(alternate "USART2_TX" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -15.24 -27.94 0)
+					(length 5.08)
+					(name "PB7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "COMP2_INP" bidirectional line)
+					(alternate "I2C1_SDA" bidirectional line)
+					(alternate "LPTIM1_IN2" bidirectional line)
+					(alternate "LPUART1_RX" bidirectional line)
+					(alternate "SYS_PVD_IN" bidirectional line)
+					(alternate "TIM2_CH4" bidirectional line)
+					(alternate "USART2_RX" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -15.24 -30.48 0)
+					(length 5.08)
+					(name "PB9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1682,7 +1814,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1693,17 +1825,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "+3V3"
 				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1712,38 +1850,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "+3V3_0_1"
@@ -1788,7 +1934,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1807,7 +1953,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:GND"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1818,17 +1964,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GND"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1837,38 +1989,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GND_0_1"
@@ -1889,7 +2049,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1907,9 +2067,6 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(bus_alias "SWD"
-		(members "SWCLK" "SWDIO")
 	)
 	(text "Decoupling Capacitors"
 		(exclude_from_sim no)
@@ -3167,13 +3324,17 @@
 		(at 167.64 63.5 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ab9d67c-a164-408f-8c3b-62fdf711870d")
 		(property "Reference" "TP604"
 			(at 175.26 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3183,6 +3344,8 @@
 		)
 		(property "Value" "1mm"
 			(at 168.91 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3192,36 +3355,42 @@
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 162.56 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 162.56 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "test point"
 			(at 167.64 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "5fc7cd21-7d6c-4e52-8c4e-a911f487129d")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe/83d8b724-aca9-476d-bd45-33aef071fdc6"
 					(reference "TP604")
 					(unit 1)
@@ -3233,13 +3402,17 @@
 		(lib_id "DEV:R_SMALL")
 		(at 83.82 147.32 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c0786f1-1d82-4dea-8b6c-c565f9a2751c")
 		(property "Reference" "R604"
 			(at 86.36 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3249,6 +3422,8 @@
 		)
 		(property "Value" "5k1"
 			(at 86.36 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3258,29 +3433,35 @@
 		)
 		(property "Footprint" "project_footprints:R_0402"
 			(at 83.82 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 83.82 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 83.82 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3290,7 +3471,7 @@
 			(uuid "d11a6b42-aeb6-4f77-bc56-7ffb7cb83a60")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe/83d8b724-aca9-476d-bd45-33aef071fdc6"
 					(reference "R604")
 					(unit 1)
@@ -3302,14 +3483,18 @@
 		(lib_id "DEV:LED_SMALL")
 		(at 83.82 154.94 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f10b399-6f1b-4e2c-97b9-9e7dc842c607")
 		(property "Reference" "D602"
 			(at 86.36 153.6064 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3319,6 +3504,8 @@
 		)
 		(property "Value" "BLUE"
 			(at 86.36 156.1464 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3328,47 +3515,57 @@
 		)
 		(property "Footprint" "project_footprints:R_0402"
 			(at 83.82 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 83.82 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
 			(at 83.82 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
 			(at 83.82 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 83.82 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3378,7 +3575,7 @@
 			(uuid "9144ca3a-e973-499f-b0d8-f02b4e4c2ddc")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe/83d8b724-aca9-476d-bd45-33aef071fdc6"
 					(reference "D602")
 					(unit 1)
@@ -3390,14 +3587,18 @@
 		(lib_id "DEV:LED_SMALL")
 		(at 114.3 154.94 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a9c1b7c-2b31-4473-ae58-a69d4fcfa806")
 		(property "Reference" "D603"
 			(at 116.84 153.6064 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3407,6 +3608,8 @@
 		)
 		(property "Value" "RED"
 			(at 116.84 156.1464 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3416,47 +3619,57 @@
 		)
 		(property "Footprint" "project_footprints:R_0402"
 			(at 114.3 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 114.3 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
 			(at 114.3 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
 			(at 114.3 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 114.3 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3466,7 +3679,7 @@
 			(uuid "94f15a14-3151-4824-892d-b5c13ca33bbb")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe/83d8b724-aca9-476d-bd45-33aef071fdc6"
 					(reference "D603")
 					(unit 1)
@@ -3479,14 +3692,18 @@
 		(at 139.7 58.42 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b57824f-d9a4-44fb-ad79-61848f449710")
 		(property "Reference" "U601"
 			(at 139.7 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3495,6 +3712,8 @@
 		)
 		(property "Value" "STM32L021F4Ux"
 			(at 139.7 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3503,30 +3722,36 @@
 		)
 		(property "Footprint" "project_footprints:ST_UFQFPN-20_3x3mm_P0.5mm"
 			(at 113.9825 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32l021f4.pdf"
 			(at 139.7 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 16KB flash, 2KB RAM, 32 MHz, 1.65-3.6V, 16 GPIO, UFQFPN20"
 			(at 139.7 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "8"
@@ -3590,7 +3815,7 @@
 			(uuid "889aa0a0-0770-45e4-b7f4-eb0d596e33ab")
 		)
 		(instances
-			(project ""
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe/83d8b724-aca9-476d-bd45-33aef071fdc6"
 					(reference "U601")
 					(unit 1)
@@ -3602,14 +3827,18 @@
 		(lib_id "DEV:C_SMALL")
 		(at 218.44 139.7 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b50007d-2274-4942-b05a-d3e452c19f01")
 		(property "Reference" "C603"
 			(at 220.98 138.4362 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3619,6 +3848,8 @@
 		)
 		(property "Value" "100n"
 			(at 220.98 140.9762 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3628,29 +3859,35 @@
 		)
 		(property "Footprint" "project_footprints:C_0402"
 			(at 218.44 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 218.44 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 218.44 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3660,7 +3897,7 @@
 			(uuid "0588ece0-e457-4987-a47e-243756792557")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe/83d8b724-aca9-476d-bd45-33aef071fdc6"
 					(reference "C603")
 					(unit 1)
@@ -3672,23 +3909,29 @@
 		(lib_id "PWR-SYM:+3V3_AON")
 		(at 83.82 142.24 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c8e71e1-64c4-4902-aa9e-54c81d260b63")
 		(property "Reference" "#PWR0604"
 			(at 83.82 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+3V3_AON"
 			(at 83.82 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3697,36 +3940,42 @@
 		)
 		(property "Footprint" ""
 			(at 83.82 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 83.82 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3_AON\""
 			(at 83.82 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "fb5abc16-a1c7-4846-827b-08c75bda85cf")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe/83d8b724-aca9-476d-bd45-33aef071fdc6"
 					(reference "#PWR0604")
 					(unit 1)
@@ -3738,13 +3987,17 @@
 		(lib_id "Connector:TestPoint_Small")
 		(at 109.22 83.82 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e701de2-38fb-4fa5-b236-02a63622596e")
 		(property "Reference" "TP602"
 			(at 101.6 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3754,6 +4007,8 @@
 		)
 		(property "Value" "1mm"
 			(at 107.95 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3763,36 +4018,42 @@
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 114.3 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 114.3 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "test point"
 			(at 109.22 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "326fc26f-6273-4c22-b410-06d47fc5b849")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe/83d8b724-aca9-476d-bd45-33aef071fdc6"
 					(reference "TP602")
 					(unit 1)
@@ -3804,23 +4065,29 @@
 		(lib_id "power:GND")
 		(at 81.28 81.28 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4228fae8-ead3-4abd-9b70-a1635eeb850a")
 		(property "Reference" "#PWR0603"
 			(at 81.28 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 81.28 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3829,36 +4096,42 @@
 		)
 		(property "Footprint" ""
 			(at 81.28 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 81.28 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 81.28 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "ee2fda39-47e9-4873-ab0c-f03254658330")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe/83d8b724-aca9-476d-bd45-33aef071fdc6"
 					(reference "#PWR0603")
 					(unit 1)
@@ -3870,23 +4143,29 @@
 		(lib_id "power:GND")
 		(at 121.92 91.44 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42fa3712-dad8-46cf-81a8-a96d21875a1c")
 		(property "Reference" "#PWR0606"
 			(at 121.92 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 121.92 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3895,36 +4174,42 @@
 		)
 		(property "Footprint" ""
 			(at 121.92 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 121.92 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 121.92 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "8e4ed695-cb8a-425b-be7a-e9b7a6f0a07e")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe/83d8b724-aca9-476d-bd45-33aef071fdc6"
 					(reference "#PWR0606")
 					(unit 1)
@@ -3936,13 +4221,17 @@
 		(lib_id "Connector:TestPoint_Small")
 		(at 119.38 88.9 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "480a46bd-a23d-4c9b-9083-6d55a45a815c")
 		(property "Reference" "TP603"
 			(at 111.76 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3952,6 +4241,8 @@
 		)
 		(property "Value" "1mm"
 			(at 118.11 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3961,36 +4252,42 @@
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 124.46 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 124.46 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "test point"
 			(at 119.38 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "1213eb9e-7487-4f34-b43b-e51f1ea989c2")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe/83d8b724-aca9-476d-bd45-33aef071fdc6"
 					(reference "TP603")
 					(unit 1)
@@ -4002,23 +4299,29 @@
 		(lib_id "PWR-SYM:+VIN")
 		(at 81.28 60.96 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5129bedc-79fa-4dc3-8caa-2078d184f7c3")
 		(property "Reference" "#PWR0602"
 			(at 81.28 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+VIN"
 			(at 81.28 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4027,36 +4330,42 @@
 		)
 		(property "Footprint" ""
 			(at 81.28 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 81.28 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+VIN\""
 			(at 81.28 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "8a46011a-af75-47cb-be4e-a1090e5bf5a8")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe/83d8b724-aca9-476d-bd45-33aef071fdc6"
 					(reference "#PWR0602")
 					(unit 1)
@@ -4068,23 +4377,29 @@
 		(lib_id "power:GND")
 		(at 238.76 147.32 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66704db4-2ba9-44c5-a06c-be739272dcec")
 		(property "Reference" "#PWR0611"
 			(at 238.76 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 238.76 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4093,36 +4408,42 @@
 		)
 		(property "Footprint" ""
 			(at 238.76 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 238.76 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 238.76 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "07cd6b92-1062-486c-8af0-f5577c2fd59d")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe/83d8b724-aca9-476d-bd45-33aef071fdc6"
 					(reference "#PWR0611")
 					(unit 1)
@@ -4134,23 +4455,29 @@
 		(lib_id "PWR-SYM:+3V3_AON")
 		(at 208.28 132.08 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b5b043c-8acf-425a-8bd2-335a2b55af4a")
 		(property "Reference" "#PWR0609"
 			(at 208.28 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+3V3_AON"
 			(at 208.28 127 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4159,36 +4486,42 @@
 		)
 		(property "Footprint" ""
 			(at 208.28 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 208.28 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3_AON\""
 			(at 208.28 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "6157bd5c-88fc-447c-9724-cdb8960394de")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe/83d8b724-aca9-476d-bd45-33aef071fdc6"
 					(reference "#PWR0609")
 					(unit 1)
@@ -4200,14 +4533,18 @@
 		(lib_id "DEV:C_SMALL")
 		(at 228.6 139.7 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b2f4289-bb2b-44e7-988e-0d9b8bdff9bd")
 		(property "Reference" "C604"
 			(at 231.14 138.4362 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4217,6 +4554,8 @@
 		)
 		(property "Value" "1u"
 			(at 231.14 140.9762 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4226,29 +4565,35 @@
 		)
 		(property "Footprint" "project_footprints:C_0402"
 			(at 228.6 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 228.6 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 228.6 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4258,7 +4603,7 @@
 			(uuid "250672db-d2a9-4363-bc38-af8baedae445")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe/83d8b724-aca9-476d-bd45-33aef071fdc6"
 					(reference "C604")
 					(unit 1)
@@ -4270,23 +4615,29 @@
 		(lib_id "power:+3V3")
 		(at 210.82 58.42 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e027c12-1b3f-45c2-b1ca-281eeb0ce15b")
 		(property "Reference" "#PWR0610"
 			(at 210.82 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+3V3"
 			(at 210.82 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4295,36 +4646,42 @@
 		)
 		(property "Footprint" ""
 			(at 210.82 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 210.82 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 210.82 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "f898de23-a370-4185-964c-5f27f8525a17")
 		)
 		(instances
-			(project ""
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe/83d8b724-aca9-476d-bd45-33aef071fdc6"
 					(reference "#PWR0610")
 					(unit 1)
@@ -4336,13 +4693,17 @@
 		(lib_id "DEV:R_SMALL")
 		(at 114.3 147.32 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e61d006-c3da-4cdd-b11b-664140b107af")
 		(property "Reference" "R605"
 			(at 116.84 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4352,6 +4713,8 @@
 		)
 		(property "Value" "5k1"
 			(at 116.84 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4361,29 +4724,35 @@
 		)
 		(property "Footprint" "project_footprints:R_0402"
 			(at 114.3 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 114.3 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 114.3 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4393,7 +4762,7 @@
 			(uuid "629afbe2-b213-423d-9536-088b2c2ebbf2")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe/83d8b724-aca9-476d-bd45-33aef071fdc6"
 					(reference "R605")
 					(unit 1)
@@ -4405,14 +4774,18 @@
 		(lib_id "DEV:LED_SMALL")
 		(at 53.34 154.94 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9161f7c5-ecd2-4230-b47d-a6ac480c7bd4")
 		(property "Reference" "D601"
 			(at 55.88 153.6064 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4422,6 +4795,8 @@
 		)
 		(property "Value" "GREEN"
 			(at 55.88 156.1464 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4431,47 +4806,57 @@
 		)
 		(property "Footprint" "project_footprints:R_0402"
 			(at 53.34 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 53.34 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
 			(at 53.34 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
 			(at 53.34 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 53.34 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4481,7 +4866,7 @@
 			(uuid "3aab2cb8-c340-4dff-bf17-f258dfb43f7b")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe/83d8b724-aca9-476d-bd45-33aef071fdc6"
 					(reference "D601")
 					(unit 1)
@@ -4493,14 +4878,18 @@
 		(lib_id "DEV:C_SMALL")
 		(at 193.04 73.66 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a12ff356-25f0-4343-840a-c1e1f1b6b94d")
 		(property "Reference" "C601"
 			(at 195.58 72.3962 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4510,6 +4899,8 @@
 		)
 		(property "Value" "10n"
 			(at 195.58 74.9362 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4519,29 +4910,35 @@
 		)
 		(property "Footprint" "project_footprints:C_0402"
 			(at 193.04 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 193.04 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 193.04 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4551,7 +4948,7 @@
 			(uuid "d29ae476-912f-44b4-b350-38cbdd46bf05")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe/83d8b724-aca9-476d-bd45-33aef071fdc6"
 					(reference "C601")
 					(unit 1)
@@ -4563,14 +4960,18 @@
 		(lib_id "DEV:C_SMALL")
 		(at 208.28 139.7 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b897f6bf-ea4e-4d3e-bb11-0693a202f521")
 		(property "Reference" "C602"
 			(at 210.82 138.4362 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4580,6 +4981,8 @@
 		)
 		(property "Value" "100n"
 			(at 210.82 140.9762 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4589,29 +4992,35 @@
 		)
 		(property "Footprint" "project_footprints:C_0402"
 			(at 208.28 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 208.28 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 208.28 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4621,7 +5030,7 @@
 			(uuid "0b5ce71d-02ce-4dc5-8d83-01b3d5337d46")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe/83d8b724-aca9-476d-bd45-33aef071fdc6"
 					(reference "C602")
 					(unit 1)
@@ -4633,23 +5042,29 @@
 		(lib_id "power:GND")
 		(at 193.04 78.74 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcb2d397-8bff-46e4-b548-c61d65f09a71")
 		(property "Reference" "#PWR0608"
 			(at 193.04 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 193.04 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4658,36 +5073,42 @@
 		)
 		(property "Footprint" ""
 			(at 193.04 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 193.04 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 193.04 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "0878c29e-44ae-47b1-9603-de9c502a3e6b")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe/83d8b724-aca9-476d-bd45-33aef071fdc6"
 					(reference "#PWR0608")
 					(unit 1)
@@ -4699,13 +5120,17 @@
 		(lib_id "Connector:TestPoint_Small")
 		(at 109.22 81.28 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf4b6dc8-3fed-4a4a-85bc-6397ce9fc725")
 		(property "Reference" "TP601"
 			(at 101.6 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4715,6 +5140,8 @@
 		)
 		(property "Value" "1mm"
 			(at 107.95 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4724,36 +5151,42 @@
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 114.3 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 114.3 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "test point"
 			(at 109.22 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "5ca806dd-5a15-4821-ba30-3bb9739d034f")
 		)
 		(instances
-			(project ""
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe/83d8b724-aca9-476d-bd45-33aef071fdc6"
 					(reference "TP601")
 					(unit 1)
@@ -4765,13 +5198,17 @@
 		(lib_id "DEV:R_SMALL")
 		(at 53.34 147.32 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "c022a242-d0e2-4352-bea9-31f0503f923c")
 		(property "Reference" "R601"
 			(at 55.88 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4781,6 +5218,8 @@
 		)
 		(property "Value" "5k1"
 			(at 55.88 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4790,29 +5229,35 @@
 		)
 		(property "Footprint" "project_footprints:R_0402"
 			(at 53.34 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 53.34 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 53.34 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4822,7 +5267,7 @@
 			(uuid "86a5c118-45cd-47d0-96d9-950737f18f3b")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe/83d8b724-aca9-476d-bd45-33aef071fdc6"
 					(reference "R601")
 					(unit 1)
@@ -4834,14 +5279,18 @@
 		(lib_id "DEV:C_SMALL")
 		(at 238.76 139.7 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0903c94-cc9d-41f6-bc04-a56f0f9aa71f")
 		(property "Reference" "C605"
 			(at 241.3 138.4362 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4851,6 +5300,8 @@
 		)
 		(property "Value" "10u"
 			(at 241.3 140.9762 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4860,29 +5311,35 @@
 		)
 		(property "Footprint" "project_footprints:C_0402"
 			(at 238.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 238.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 238.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4892,7 +5349,7 @@
 			(uuid "c623f578-bb35-4a58-9380-ed4f096cfa13")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe/83d8b724-aca9-476d-bd45-33aef071fdc6"
 					(reference "C605")
 					(unit 1)
@@ -4904,13 +5361,17 @@
 		(lib_id "DEV:R_SMALL")
 		(at 81.28 76.2 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4cb6894-d166-406b-82c9-ceeb1186d06b")
 		(property "Reference" "R603"
 			(at 83.82 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4920,6 +5381,8 @@
 		)
 		(property "Value" "4k7"
 			(at 83.82 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4929,29 +5392,35 @@
 		)
 		(property "Footprint" "project_footprints:R_0402"
 			(at 81.28 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 81.28 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 81.28 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4961,7 +5430,7 @@
 			(uuid "1a2a7c4c-0c96-419c-9d6b-42811afc2637")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe/83d8b724-aca9-476d-bd45-33aef071fdc6"
 					(reference "R603")
 					(unit 1)
@@ -4973,13 +5442,17 @@
 		(lib_id "DEV:R_SMALL")
 		(at 81.28 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc472ce7-3390-41b4-8f40-d86b24e19dc4")
 		(property "Reference" "R602"
 			(at 83.82 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4989,6 +5462,8 @@
 		)
 		(property "Value" "100k"
 			(at 83.82 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4998,29 +5473,35 @@
 		)
 		(property "Footprint" "project_footprints:R_0402"
 			(at 81.28 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 81.28 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 81.28 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5030,7 +5511,7 @@
 			(uuid "a2dfad09-8640-49b6-aa07-03e91df972b1")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe/83d8b724-aca9-476d-bd45-33aef071fdc6"
 					(reference "R602")
 					(unit 1)
@@ -5043,13 +5524,17 @@
 		(at 187.96 63.5 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "ddc67b46-9528-4c65-8c15-69b86fd35585")
 		(property "Reference" "TP605"
 			(at 195.58 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5059,6 +5544,8 @@
 		)
 		(property "Value" "1mm"
 			(at 189.23 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5068,36 +5555,42 @@
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 182.88 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 182.88 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "test point"
 			(at 187.96 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "cc8deb14-f3e1-4712-b8cf-654b726d4d5a")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe/83d8b724-aca9-476d-bd45-33aef071fdc6"
 					(reference "TP605")
 					(unit 1)
@@ -5109,23 +5602,29 @@
 		(lib_id "PWR-SYM:+3V3_AON")
 		(at 114.3 142.24 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3b2e83b-ee67-44c9-be81-426a869c2667")
 		(property "Reference" "#PWR0605"
 			(at 114.3 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+3V3_AON"
 			(at 114.3 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5134,36 +5633,42 @@
 		)
 		(property "Footprint" ""
 			(at 114.3 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 114.3 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3_AON\""
 			(at 114.3 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "6bdf5ee0-5dba-43d1-b718-54d8a0b88e55")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe/83d8b724-aca9-476d-bd45-33aef071fdc6"
 					(reference "#PWR0605")
 					(unit 1)
@@ -5176,13 +5681,17 @@
 		(at 210.82 60.96 90)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e416e9e2-07d2-4da6-85fc-9a9f6542ea3d")
 		(property "Reference" "Q601"
 			(at 210.82 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5191,6 +5700,8 @@
 		)
 		(property "Value" "DMN21D2UFB-7B"
 			(at 210.82 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5199,117 +5710,141 @@
 		)
 		(property "Footprint" "project_footprints:DMN21D2UFB7B"
 			(at 309.55 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/DMN21D2UFB-7B.pdf"
 			(at 409.55 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Description" "MOSFET MOSFET BVDSS: 8V-24V X1-DFN1006-3 T&R 10"
 			(at 241.3 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Height" "0.53"
 			(at 609.55 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "621-DMN21D2UFB-7B"
 			(at 709.55 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Mouser Price/Stock" ""
 			(at 809.55 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Diodes Incorporated"
 			(at 909.55 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "DMN21D2UFB-7B"
 			(at 1009.55 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Sim.Library" "sim_models\\DMN21D2UFB.spice.txt"
 			(at 210.82 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Name" "DMN21D2UFB"
 			(at 210.82 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
 			(at 210.82 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=20 2=30 3=10"
 			(at 210.82 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5322,7 +5857,7 @@
 			(uuid "34ac26a3-8f9f-49b1-a188-3c9b251f2ea9")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe/83d8b724-aca9-476d-bd45-33aef071fdc6"
 					(reference "Q601")
 					(unit 1)
@@ -5335,23 +5870,29 @@
 		(at 157.48 58.42 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5a2fd2b-5ac3-461e-aca0-71bc14c1f7fd")
 		(property "Reference" "#PWR0607"
 			(at 157.48 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+3V3_AON"
 			(at 157.48 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5360,36 +5901,42 @@
 		)
 		(property "Footprint" ""
 			(at 157.48 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 157.48 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3_AON\""
 			(at 157.48 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "08573402-7cf9-46c2-be69-297a9dc5b3f8")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe/83d8b724-aca9-476d-bd45-33aef071fdc6"
 					(reference "#PWR0607")
 					(unit 1)
@@ -5401,23 +5948,29 @@
 		(lib_id "PWR-SYM:+3V3_AON")
 		(at 53.34 142.24 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb9f58ec-849d-402c-8b16-2418636e6630")
 		(property "Reference" "#PWR0601"
 			(at 53.34 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+3V3_AON"
 			(at 53.34 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5426,36 +5979,42 @@
 		)
 		(property "Footprint" ""
 			(at 53.34 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 53.34 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3_AON\""
 			(at 53.34 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "fa620bb3-363d-45e9-95be-6f71ebee4d54")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe/83d8b724-aca9-476d-bd45-33aef071fdc6"
 					(reference "#PWR0601")
 					(unit 1)

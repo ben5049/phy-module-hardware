@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "e80ee503-1693-4b2e-938d-c8fe929984fe")
 	(paper "A4")
 	(lib_symbols
@@ -16,8 +16,12 @@
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "H"
 				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -26,6 +30,8 @@
 			)
 			(property "Value" "MountingHole_Pad"
 				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -34,47 +40,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "mounting hole"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "MountingHole_Pad_0_1"
@@ -113,7 +129,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:GND"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -124,17 +140,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GND"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -143,38 +165,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GND_0_1"
@@ -195,7 +225,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -225,7 +255,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 3b56b988-a227-4fe8-89f7-b0dd45715149)
+		(uuid "3b56b988-a227-4fe8-89f7-b0dd45715149")
 	)
 	(arc
 		(start 60.96 176.53)
@@ -238,7 +268,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 8a1d0471-39eb-4f31-88c5-165ce3507fa8)
+		(uuid "8a1d0471-39eb-4f31-88c5-165ce3507fa8")
 	)
 	(arc
 		(start 58.42 151.13)
@@ -251,7 +281,7 @@
 		(fill
 			(type none)
 		)
-		(uuid c5a08f55-9ef5-4440-ab3c-19276257be45)
+		(uuid "c5a08f55-9ef5-4440-ab3c-19276257be45")
 	)
 	(arc
 		(start 33.02 153.67)
@@ -264,7 +294,7 @@
 		(fill
 			(type none)
 		)
-		(uuid f4b67d20-dd2a-4eb1-b6f1-b8d63e8fb8cc)
+		(uuid "f4b67d20-dd2a-4eb1-b6f1-b8d63e8fb8cc")
 	)
 	(junction
 		(at 180.34 76.2)
@@ -664,14 +694,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 35.56 154.94 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f5a310d-4045-4dee-9b29-8beb52ad330e")
 		(property "Reference" "H101"
 			(at 38.1 152.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -681,6 +715,8 @@
 		)
 		(property "Value" "MountingHole_Pad"
 			(at 38.1 154.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -690,36 +726,42 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
 			(at 35.56 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 35.56 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 35.56 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "37be474b-b86e-4d90-a6c9-0c11a765fe4b")
 		)
 		(instances
-			(project ""
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe"
 					(reference "H101")
 					(unit 1)
@@ -731,14 +773,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 35.56 177.8 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51bb941d-dbd9-4391-ad52-9254941cbb37")
 		(property "Reference" "H102"
 			(at 38.1 175.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -748,6 +794,8 @@
 		)
 		(property "Value" "MountingHole_Pad"
 			(at 38.1 177.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -757,36 +805,42 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
 			(at 35.56 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 35.56 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 35.56 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "be4e1501-9f16-4e23-9870-c322cd43a6bc")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe"
 					(reference "H102")
 					(unit 1)
@@ -798,14 +852,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 58.42 177.8 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6791a29e-bb32-4039-8399-029e29535b89")
 		(property "Reference" "H104"
 			(at 60.96 175.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -815,6 +873,8 @@
 		)
 		(property "Value" "MountingHole_Pad"
 			(at 60.96 177.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -824,36 +884,42 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
 			(at 58.42 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 58.42 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 58.42 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "e8f711bc-32f8-45fb-9366-57a9800cc47c")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe"
 					(reference "H104")
 					(unit 1)
@@ -865,23 +931,29 @@
 		(lib_id "power:GND")
 		(at 58.42 180.34 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d54f251-b7c7-4dbe-b359-fc1fbb608bfc")
 		(property "Reference" "#PWR0104"
 			(at 58.42 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 58.42 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -890,36 +962,42 @@
 		)
 		(property "Footprint" ""
 			(at 58.42 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 58.42 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 58.42 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "0cdcade4-9988-4a97-bb2a-5f7708a11dda")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe"
 					(reference "#PWR0104")
 					(unit 1)
@@ -931,23 +1009,29 @@
 		(lib_id "power:GND")
 		(at 35.56 180.34 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8750a5cd-26d1-4b6c-bf8e-5a38c6b49db4")
 		(property "Reference" "#PWR0102"
 			(at 35.56 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 35.56 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -956,36 +1040,42 @@
 		)
 		(property "Footprint" ""
 			(at 35.56 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 35.56 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 35.56 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "6314f196-a6e2-431a-a610-f9dc12d5822c")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe"
 					(reference "#PWR0102")
 					(unit 1)
@@ -997,23 +1087,29 @@
 		(lib_id "power:GND")
 		(at 35.56 157.48 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a23d2965-87f3-4e06-a010-c5bd11c4f7d5")
 		(property "Reference" "#PWR0101"
 			(at 35.56 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 35.56 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1022,36 +1118,42 @@
 		)
 		(property "Footprint" ""
 			(at 35.56 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 35.56 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 35.56 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "c2f190c9-b132-49ba-916f-1c2614f5f3a2")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe"
 					(reference "#PWR0101")
 					(unit 1)
@@ -1063,14 +1165,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 58.42 154.94 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db9add11-e744-4011-bad7-c4476fa080ce")
 		(property "Reference" "H103"
 			(at 60.96 152.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1080,6 +1186,8 @@
 		)
 		(property "Value" "MountingHole_Pad"
 			(at 60.96 154.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1089,36 +1197,42 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
 			(at 58.42 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 58.42 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 58.42 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "cb2c0f6f-437e-4ec7-a7c0-625678438a02")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe"
 					(reference "H103")
 					(unit 1)
@@ -1130,23 +1244,29 @@
 		(lib_id "power:GND")
 		(at 58.42 157.48 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4e7a6fb-50d0-4247-9976-b31902532c31")
 		(property "Reference" "#PWR0103"
 			(at 58.42 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 58.42 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1155,36 +1275,42 @@
 		)
 		(property "Footprint" ""
 			(at 58.42 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 58.42 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 58.42 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "3d44292a-6a67-492a-a16a-64fa79a8bcbb")
 		)
 		(instances
-			(project "phy_module_10_base_t1s_v1"
+			(project "phy-module-10-base-t1s-v1"
 				(path "/e80ee503-1693-4b2e-938d-c8fe929984fe"
 					(reference "#PWR0103")
 					(unit 1)
@@ -1205,11 +1331,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "721eab21-1f79-46b3-89e1-d0457ec883d6")
 		(property "Sheetname" "Ethernet Connector & CDN"
 			(at 88.9 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1219,6 +1347,8 @@
 		)
 		(property "Sheetfile" "eth-conn-cdn.kicad_sch"
 			(at 88.9 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1277,11 +1407,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "83d8b724-aca9-476d-bd45-33aef071fdc6")
 		(property "Sheetname" "Microcontroller"
 			(at 190.5 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1291,6 +1423,8 @@
 		)
 		(property "Sheetfile" "microcontroller.kicad_sch"
 			(at 190.5 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1419,11 +1553,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "8b55039e-b642-4b02-a149-73770ffd86af")
 		(property "Sheetname" "Host Connector"
 			(at 190.5 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1433,6 +1569,8 @@
 		)
 		(property "Sheetfile" "host-connector.kicad_sch"
 			(at 190.5 79.3246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1531,11 +1669,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "f40b22a4-ed5e-459c-80a2-612b49a66ade")
 		(property "Sheetname" "Tranceiver"
 			(at 139.7 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1545,6 +1685,8 @@
 		)
 		(property "Sheetfile" "tranceiver.kicad_sch"
 			(at 139.7 86.9446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1673,11 +1815,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "fb2bc837-7a5e-4395-9389-7c0840c8a16a")
 		(property "Sheetname" "Power"
 			(at 139.7 100.8884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1687,6 +1831,8 @@
 		)
 		(property "Sheetfile" "power.kicad_sch"
 			(at 139.7 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
