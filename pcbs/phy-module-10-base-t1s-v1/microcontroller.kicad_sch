@@ -3513,7 +3513,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "project_footprints:R_0402"
+		(property "Footprint" "project_footprints:LED_0402"
 			(at 83.82 154.94 90)
 			(hide yes)
 			(show_name no)
@@ -3617,7 +3617,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "project_footprints:R_0402"
+		(property "Footprint" "project_footprints:LED_0402"
 			(at 114.3 154.94 90)
 			(hide yes)
 			(show_name no)
@@ -4804,7 +4804,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "project_footprints:R_0402"
+		(property "Footprint" "project_footprints:LED_0402"
 			(at 53.34 154.94 90)
 			(hide yes)
 			(show_name no)
